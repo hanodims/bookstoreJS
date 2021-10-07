@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="myScript.js"></script>
+    <title>book store</title>
+</head>
+
+<body onload="browes();">
+    <div style='display:flex'>
+        <div class="menu">
+            <a class="menu" href="#">Books</a>
+            <a class="menu" href="##">My Library</a>
+        </div>
+        <input type="search" id="search" placeholder="search book id, title or author">
+
+    </div>
+    <div class=box>
+        <div class=textBox>
+            <h1 class=box>Build Your Library</h1>
+            <h4 class=box>You Can Add Your Faivorate Books</h4>
+            <button id='add'>add</button>
+        </div>
+        <div class="imageBox"> <img src="library.png" class="imageBox"></div>
+
+    </div>
+    <h1 id=heading>Books:</h1>
+    <div id=cardsContainer>
+
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id='addForm' action="/myScript.js">
+                <label for="bookId">Book ID:</label><br>
+                <input type="number" id="bookId" name="bookID"><br>
+                <label for="title">Book Title:</label><br>
+                <input type="text" id="title" name="title"><br>
+                <label for="author">Author name:</label><br>
+                <input type="text" id="author" name="author"><br>
+                <label for="price">Price:</label><br>
+                <input type="number" id="price" name="price"><br>
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity"><br><br>
+                <input type="submit" value="Submit"><br>
+                <p id='msg' style="color: red;"></p>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

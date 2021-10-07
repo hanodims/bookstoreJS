@@ -1,0 +1,162 @@
+body {
+background-color: #fff;
+padding: 60px;
+padding-right: 10%;
+padding-left: 10%;
+
+}
+
+div.menu {
+    padding: 20px;
+    display: flex;
+}
+
+a.menu {
+    font-size: 20px;
+    color:#b6babf;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a.menu:hover{
+  color: #413b88;  
+}
+
+
+div.box {
+    background-color: #f4e8de;
+    display:flex;
+    min-height: 300px;
+    border-radius: 20px;
+    padding: 50px;
+    margin-bottom: 50px;
+
+}
+
+.textBox {
+    display: flexbox;
+    margin: auto;
+}
+
+h1,h2{
+   color: #413b88;
+}
+h1#heading{
+    color: black;
+}
+
+h4{
+    color: #b6babf;
+}
+
+ h1.box,h4.box{
+    margin-bottom: 20px;
+ }
+
+ h1.box{
+    font-size: 70px;
+ }
+
+ button  {
+    background-color: #c1a792;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+  
+ }
+
+ div.imageBox {
+     max-width:50%;
+     max-height: 0%;
+     margin: auto;
+ }
+
+ img.imageBox {
+max-width:100%;
+max-height: 100%;
+}
+
+#cardsContainer{
+padding-top: 30px;
+display: flex;
+min-height: 300px;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+div.card {
+    background-color: #f4e8de;
+    display:flexbox;
+    min-height:200px;
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    margin: 10px
+
+}
+
+h2#name {
+    margin-bottom: 15px;
+}
+
+button.buy {  
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 30%; /* Could be more or less, depending on screen size */
+    border-radius: 20px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    border: dotted
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #search {
+      min-width :50%;
+      max-width :50%;
+      height: 35px;
+      border-radius: 10px;
+      background-color: #f5f7f9;
+      border-style: hidden;
+      align-self: center;
+      padding-left: 20px;
+
+  }
